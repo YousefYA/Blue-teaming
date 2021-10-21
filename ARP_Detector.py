@@ -28,7 +28,7 @@ def packet_sniifer(packet):
 
         #print(packet.show())
 os.system("cls")
-text = pyfiglet.figlet_format("MIMT-Detect")
+text = pyfiglet.figlet_format("MITM-Detect")
 text_color = colored(text , "cyan" , attrs=["bold"])
 print(text_color)
 sniff()
